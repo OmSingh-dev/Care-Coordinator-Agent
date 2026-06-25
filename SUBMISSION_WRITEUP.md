@@ -34,15 +34,15 @@ graph TD
 
 ## Concepts Used
 
-1. **ADK 2.0 Workflow (`Workflow` & `edges`)**: The core DAG routing structure that connects the security, orchestration, and validation nodes. Implemented in [agent.py](file:///c:/Antigravity/Capstone%20Project/care-coordinator/app/agent.py#L199-L213).
+1. **ADK 2.0 Workflow (`Workflow` & `edges`)**: The core DAG routing structure that connects the security, orchestration, and validation nodes. Implemented in [agent.py](app/agent.py#L199-L213).
 2. **LlmAgent (`Agent`)**:
    - `coordinator_agent`: Central router and synthesizer.
    - `medication_agent`: Specialized in dosage calculations and schedules.
    - `symptom_agent`: Evaluates symptoms, severities, and advises care.
-   All instantiated in [agent.py](file:///c:/Antigravity/Capstone%20Project/care-coordinator/app/agent.py#L35-L106).
-3. **AgentTool**: Used by `coordinator_agent` to delegate specific queries dynamically to the specialized sub-agents. Wrapped in [agent.py](file:///c:/Antigravity/Capstone%20Project/care-coordinator/app/agent.py#L107-L112).
-4. **MCP Server (`FastMCP`)**: A local Stdio-based model context protocol server that connects the agents to the patient database. Implemented in [mcp_server.py](file:///c:/Antigravity/Capstone%20Project/care-coordinator/app/mcp_server.py).
-5. **Security Checkpoint**: Intercepts prompt injections, scrubs PII, checks self-dosage warnings, and prints structured JSON audit logs. Implemented in [agent.py](file:///c:/Antigravity/Capstone%20Project/care-coordinator/app/agent.py#L125-L167).
+   All instantiated in [agent.py](app/agent.py#L35-L106).
+3. **AgentTool**: Used by `coordinator_agent` to delegate specific queries dynamically to the specialized sub-agents. Wrapped in [agent.py](app/agent.py#L107-L112).
+4. **MCP Server (`FastMCP`)**: A local Stdio-based model context protocol server that connects the agents to the patient database. Implemented in [mcp_server.py](app/mcp_server.py).
+5. **Security Checkpoint**: Intercepts prompt injections, scrubs PII, checks self-dosage warnings, and prints structured JSON audit logs. Implemented in [agent.py](app/agent.py#L125-L167).
 6. **Agents CLI (`agents-cli`)**: Scaffolded the project workspace, managed local builds, and verified execution via ADK web playground.
 
 ---

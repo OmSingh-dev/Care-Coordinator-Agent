@@ -169,11 +169,11 @@ Test these queries inside the ADK Playground UI:
 ## Assets
 
 This project includes visual submission assets:
-- **Workflow Diagram**: Located at [assets/architecture_diagram.png](file:///c:/Antigravity/Capstone%20Project/care-coordinator/assets/architecture_diagram.png)
-- **Cover Page Banner**: Located at [assets/cover_page_banner.png](file:///c:/Antigravity/Capstone%20Project/care-coordinator/assets/cover_page_banner.png)
+- **Workflow Diagram**: Located at [assets/architecture_diagram.png](assets/architecture_diagram.png)
+- **Cover Page Banner**: Located at [assets/cover_page_banner.png](assets/cover_page_banner.png)
 
 ---
 
 ## Demo Script
 
-The narration and spoken walkthrough script for demonstrating the care-coordinator agent is available at [DEMO_SCRIPT.txt](file:///c:/Antigravity/Capstone%20Project/care-coordinator/DEMO_SCRIPT.txt).
+The narration and spoken walkthrough script for demonstrating the care-coordinator agent is available at [DEMO_SCRIPT.txt](DEMO_SCRIPT.txt).
