@@ -169,8 +169,12 @@ Test these queries inside the ADK Playground UI:
 ## Assets
 
 This project includes visual submission assets:
-- **Workflow Diagram**: Located at [assets/architecture_diagram.png](assets/architecture_diagram.png)
-- **Cover Page Banner**: Located at [assets/cover_page_banner.png](assets/cover_page_banner.png)
+
+### Cover Page Banner
+![Cover Page Banner](assets/cover_page_banner.png)
+
+### Workflow Diagram
+![Workflow Diagram](assets/architecture_diagram.png)
 
 ---
 
